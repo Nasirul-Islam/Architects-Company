@@ -161,7 +161,7 @@ ul a {
     width: 100%;
 }
 
-/* someFacts style start */
+/* someFacts & OurSponspors style start */
 
 .facts,
 .sponspor {
@@ -178,4 +178,119 @@ ul a {
     text-align: center;
 }
 
-/* OurSponspors style start */
+@media only screen and (max-width: 950px) {
+    .container {
+        width: 95%;
+    }
+
+    .banner_text {
+        padding: 0 3rem 2rem;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .facts,
+    .sponspor {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .container {
+        width: 95%;
+    }
+
+    section,
+    .section {
+        margin: 5rem 0;
+    }
+
+    .banner_text {
+        padding: 0 1rem 1rem;
+    }
+
+    .sm_nav ul {
+        display: none;
+    }
+
+    .QuickList {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .QuickListText {
+        order: 1;
+        margin-bottom: 3rem;
+    }
+
+    .QuickListImg {
+        order: 2;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .facts,
+    .sponspor {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 95%;
+    }
+
+    section,
+    .section {
+        margin: 5rem 0;
+    }
+
+    .banner_text {
+        padding: 0 1rem 1rem;
+    }
+
+    .sm_nav ul {
+        display: none;
+    }
+
+    .QuickList {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .QuickListText {
+        order: 1;
+        margin-bottom: 3rem;
+    }
+
+    .QuickListImg {
+        order: 2;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .facts,
+    .sponspor {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
