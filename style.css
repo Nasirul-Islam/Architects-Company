@@ -29,13 +29,18 @@ h2,
 
 h4 {
     font-size: 1.4rem;
-    margin-bottom: -1rem;
+    margin-bottom: -1.8rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+    color: gray;
 }
 
 p {
     font-size: 1.1rem;
     color: gray;
-    margin: 1.5rem 0;
+    margin: 2rem 0;
 }
 
 .btn {
@@ -46,12 +51,6 @@ p {
     border-radius: .5rem;
     font-size: 1rem;
     font-weight: 700;
-}
-
-.fact {
-    border: 1px solid orange;
-    border-radius: .5rem;
-    padding: 2rem;
 }
 
 .flex_xy_center {
@@ -76,7 +75,8 @@ p {
     color: orange;
 }
 
-section {
+section,
+.section {
     margin: 10rem 0;
 }
 
@@ -160,3 +160,22 @@ ul a {
 .featuresImg img {
     width: 100%;
 }
+
+/* someFacts style start */
+
+.facts,
+.sponspor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.fact {
+    border: 1px solid orange;
+    border-radius: .5rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+/* OurSponspors style start */
