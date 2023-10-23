@@ -10,9 +10,9 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="flex_xy_center">
             <h2>G3 Architects</h2>
-            <ul>
+            <ul class="flex_xy_center">
                 <li><a href="Home">Home</a></li>
                 <li><a href="About ">About</a></li>
                 <li><a href="Contact">Contact</a></li>
@@ -20,10 +20,13 @@
             </ul>
         </nav>
         <section class="banner">
-            <h1>Brand New Group of Architects </h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                in some form, by injected humour, or randomised words which don't look even</p>
-            <button class="btn">Explore More</button>
+            <div class="banner_text text_center">
+                <h1>Brand New<br>Group of Architects </h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                    in some form, by injected humour, or randomised words which don't look even</p>
+                <button class="btn">Explore More</button>
+            </div>
             <img src="./images/banner.png" alt="banner">
         </section>
     </header>
@@ -35,8 +38,10 @@
                 <img src="./images/team3.png" alt="team3">
                 <img src="./images/team4.png" alt="team4">
             </div>
-            <div class="QuickListText">
-                <h2><span>Quick list</span>of Our<span>Features</span></h2>
+            <div class="QuickListText text_left">
+                <h2><span class="text_gray">Quick list</span> of Our <br>
+                    <span class="text_orange">Features</span>
+                </h2>
                 <p>
                     There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration in some form, by injected
@@ -45,10 +50,10 @@
                 <button class="btn">Explore More</button>
             </div>
         </section>
-        <section class="">
+        <section class="features_main">
             <div class="features">
                 <div class="featuresText">
-                    <h2>Features you will<br>love & enjoy</h2>
+                    <h2 class="featureTitle">Features you will<br>love & enjoy</h2>
                     <p>
                         There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                         alteration in some form, by injected humour, or randomised words which don't look even
@@ -84,7 +89,7 @@
                     <img src="./images/architect.png" alt="architect">
                 </div>
             </div>
-            <button class="btn">10+Year<br>Experience </button>
+            <button class="btn special_btn"><span class="h2">10+Year</span><br>Experience </button>
         </section>
         <section class="someFacts">
             <h2>Some Facts</h2>
@@ -93,9 +98,23 @@
             <div class="facts">
                 <div class="fact">
                     <img src="./images/icons/ribon.png" alt="ribon">
+                    <h2>54</h2>
+                    <h6>Awards Winnings</h6>
+                </div>
+                <div class="fact">
                     <img src="./images/icons/projects.png" alt="projects">
+                    <h2>1458</h2>
+                    <h6>Project Finished</h6>
+                </div>
+                <div class="fact">
                     <img src="./images/icons/customers.png" alt="customers">
+                    <h2>590</h2>
+                    <h6>Clients Worked</h6>
+                </div>
+                <div class="fact">
                     <img src="./images/icons/email.png" alt="email">
+                    <h2>2578</h2>
+                    <h6>Email Send</h6>
                 </div>
             </div>
         </section>

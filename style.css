@@ -1,3 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 h1 {
-    color: red;
+    font-size: 4rem;
+}
+
+h2,
+.h2 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    margin-bottom: -1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    color: gray;
+    margin: 1.5rem 0;
+}
+
+.btn {
+    color: white;
+    background-color: orange;
+    padding: 1.1rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.fact {
+    border: 1px solid orange;
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.flex_xy_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_gray {
+    color: gray;
+}
+
+.text_orange {
+    color: orange;
+}
+
+section {
+    margin: 10rem 0;
+}
+
+/* nav styles start */
+nav {
+    padding: 2rem 0;
+}
+
+ul a {
+    margin: 0 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+/* banner style start */
+.banner {
+    margin-top: 3rem;
+}
+
+.banner_text {
+    padding: 0 10rem 2rem;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* Quick List style start */
+
+.QuickList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.QuickListImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.1rem;
+}
+
+.QuickListImg img {
+    width: 100%;
+}
+
+.QuickListText {
+    margin-left: 5rem;
+}
+
+/* features style start */
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.1rem;
+}
+
+.features_main {
+    position: relative;
+}
+
+.special_btn {
+    position: absolute;
+    left: calc(100%/2 - 100px);
+    bottom: -50px;
+    padding: 2rem 3rem;
+}
+
+.featureTitle {
+    border-left: .5rem solid orange;
+    padding-left: 1.2rem;
+}
+
+.featureItem {
+    margin-left: 2rem;
+}
+
+.item {
+    padding: 0.5rem 0;
+}
+
+.featuresImg img {
+    width: 100%;
 }
